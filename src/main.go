@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"miffy/method"
+	// "miffy/face"
+	"miffy/routine"
 	"miffy/test"
 )
 
@@ -31,5 +32,19 @@ func main() {
 	// function.AnonFunc()
 
 	//方法部分的测试
-	method.Run()
+	// method.Run()
+
+	//toutine部分的测试
+	// routine.Run()
+	// routine.RunClock()
+	// routine.RunSpinner()
+	// time.Sleep(5 * time.Second)
+	// routine.RunSquare()
+	// routine.RunBingfa()
+	routine.RunWarlDir()
+	//接口部分的测试
+	// face.Run()
+	// face.Flag()
+	// face.RunSort()
+	// face.RunExpr()
 }
